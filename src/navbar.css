@@ -1,0 +1,19 @@
+a {
+    color: black;
+    font-weight: bolder;
+  }
+  a:hover {
+    color: #fdd3ae;
+  }
+ 
+  #hamburger {
+    background-color: #32B3BB;
+    
+  }
+  
+  .container {
+    padding-left: 0px;
+    padding-right: 0px;
+    max-width: 1510px;
+    position: sticky;
+  }

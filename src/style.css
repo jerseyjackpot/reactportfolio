@@ -1,0 +1,37 @@
+body {
+  background-attachment: fixed;
+  background: url("./img/WebsitePhotoCollage.jpg");
+  align-items: center;
+}
+
+a:hover {
+  color: #fdd3ae;
+}
+
+.btn {
+  margin-top: 0%;
+  margin-bottom: 5%;
+}
+
+h4 {
+  font-weight: bolder;
+}
+
+h2 {
+  font-weight: bolder;
+}
+
+#contact {
+  padding-bottom: .5rem;
+  padding-top: .5rem;
+}
+
+.btn-secondary {
+  background-color: #D56D95;
+}
+
+.card {
+  background-color: #FDD3AE;
+  
+}
+
