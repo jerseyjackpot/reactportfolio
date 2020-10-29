@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/reactportfolio/static/css/main.b6a32286.chunk.css",
+    "main.js": "/reactportfolio/static/js/main.f332f0ef.chunk.js",
+    "main.js.map": "/reactportfolio/static/js/main.f332f0ef.chunk.js.map",
+    "runtime-main.js": "/reactportfolio/static/js/runtime-main.95b9a335.js",
+    "runtime-main.js.map": "/reactportfolio/static/js/runtime-main.95b9a335.js.map",
+    "static/js/2.a4e3da3b.chunk.js": "/reactportfolio/static/js/2.a4e3da3b.chunk.js",
+    "static/js/2.a4e3da3b.chunk.js.map": "/reactportfolio/static/js/2.a4e3da3b.chunk.js.map",
+    "index.html": "/reactportfolio/index.html",
+    "static/css/main.b6a32286.chunk.css.map": "/reactportfolio/static/css/main.b6a32286.chunk.css.map",
+    "static/js/2.a4e3da3b.chunk.js.LICENSE.txt": "/reactportfolio/static/js/2.a4e3da3b.chunk.js.LICENSE.txt",
+    "static/media/ARTGAL.dd937b51.png": "/reactportfolio/static/media/ARTGAL.dd937b51.png",
+    "static/media/Aboutme.45cea512.jpg": "/reactportfolio/static/media/Aboutme.45cea512.jpg",
+    "static/media/AstQuiz.c4175c66.png": "/reactportfolio/static/media/AstQuiz.c4175c66.png",
+    "static/media/DayPlanner.3cd126ac.png": "/reactportfolio/static/media/DayPlanner.3cd126ac.png",
+    "static/media/EatBurg.10a63056.png": "/reactportfolio/static/media/EatBurg.10a63056.png",
+    "static/media/Lifepoint.ea130308.png": "/reactportfolio/static/media/Lifepoint.ea130308.png",
+    "static/media/style.css": "/reactportfolio/static/media/WebsitePhotoCollage.efb29553.jpg",
+    "static/media/Wedash.3246a0d4.png": "/reactportfolio/static/media/Wedash.3246a0d4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.95b9a335.js",
+    "static/js/2.a4e3da3b.chunk.js",
+    "static/css/main.b6a32286.chunk.css",
+    "static/js/main.f332f0ef.chunk.js"
+  ]
+}

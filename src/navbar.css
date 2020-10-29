@@ -5,15 +5,11 @@ a {
   a:hover {
     color: #fdd3ae;
   }
- 
-  #hamburger {
-    background-color: #32B3BB;
-    
-  }
   
-  .container {
+  .stupidnavbar {
     padding-left: 0px;
     padding-right: 0px;
-    max-width: 1510px;
+    width: 100%;
     position: sticky;
+    background-color: #32B3BB;
   }

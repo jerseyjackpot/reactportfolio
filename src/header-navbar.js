@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {
-  MDBNavbar, MDBNavbarNav, MDBNavItem, MDBCollapse, MDBContainer,
+  MDBNavbar, MDBNavbarNav, MDBNavbarBrand, MDBNavItem, MDBCollapse, MDBContainer,
   MDBHamburgerToggler
 } from 'mdbreact';
 import "./navbar.css";
@@ -33,13 +33,13 @@ class Header extends Component {
 
   render() {
     return (
-     
+      <div className="stupidnavbar">
       <div className="container">
         <div className="navbar" id="hamburger" >
-            <h2 className=".overflow-auto">
+            <MDBNavbarBrand className="text-wrap">
               Jacqueline A. Smith - FullStack
               Developer
-            </h2>
+            </MDBNavbarBrand>
             <MDBHamburgerToggler color="#000000" id="hamburger1" onClick={() => this.toggleSingleCollapse('collapse1')} />
             <MDBCollapse isOpen={this.state.collapse1} navbar>
               <MDBNavbarNav left>
@@ -58,6 +58,7 @@ class Header extends Component {
               </MDBNavbarNav>
             </MDBCollapse>
         </div>
+      </div>
       </div>
     );
   }
