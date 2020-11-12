@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./style.css";
 import AboutMePic from "./img/Aboutme.jpg";
-import { Link } from "react-router-dom";
-import { MDBBtn } from "mdbreact";
 
 
 
@@ -10,11 +8,11 @@ function About() {
   const [mouseState, setMouseState] = useState (45);
 
    return (
-    <div className="container-fluid">
-      <div className="row">
-        <div className="col">
+    <div className="container">
+      <div className="row justify-content-center" id="aboutme">
+        
           <img src={AboutMePic} className="img-fluid" alt="about me pic"/>
-          <div className="col">
+          
             <h2 className="social-media">5 things about Me</h2>
             <ol>
               <li>New Jersey born and raised, also lived in MD and CT</li>
@@ -36,12 +34,11 @@ function About() {
               </li>
             </ol>
           </div>
-          <div className="row align-middle">
+          <div className="row justify-content-center">
           <a className="gradient-button" href={process.env.PUBLIC_URL + "/Coding Resume Jacqueline Smith.pdf"} target="_blank" onMouseover={ () => {setMouseState(0)} } onMouseout={ () => {setMouseState(45)} } style={{background: "linear-gradient("+ mouseState+"deg,#ff6ec4,#7873f5)"}}>Click here to checkout Resume</a>
           </div>
         </div>
-      </div>
-    </div>
+   
   );
 }
 

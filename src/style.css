@@ -7,6 +7,10 @@
   height: 100vh;
 
 }
+
+#aboutme {
+  justify-content: center;
+}
 #jackpotcontact{
   justify-content: space-around;
   align-items: center;
@@ -16,6 +20,20 @@
   margin-left: 0 !important;
   margin-right: 0 !important;
 }
+
+.portfolio-row:nth-child(2n) > :first-child{
+  order: 1;
+}
+.portfolio-row:nth-child(2n) > :nth-child(2){
+  order: 2;
+}
+.portfolio-row:nth-child(2n + 1) > :first-child{
+  order: 2;
+}
+.portfolio-row:nth-child(2n + 1) > :nth-child(2){
+  order: 1;
+}
+
 @media only screen and (max-width: 900px) {
   #jackpotcontact {
     display: flex;
@@ -124,4 +142,5 @@ a.gradient-button {
   border: 3px solid gray;
   margin-top: 2rem;
 }
+
 
