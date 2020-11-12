@@ -1,12 +1,15 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./style.css";
 import AboutMePic from "./img/Aboutme.jpg";
 import { Link } from "react-router-dom";
 import { MDBBtn } from "mdbreact";
 
+
+
 function About() {
-  console.log(process.env.PUBLIC_URL);
-  return (
+  const [mouseState, setMouseState] = useState (45);
+
+   return (
     <div className="container-fluid">
       <div className="row">
         <div className="col">
@@ -34,10 +37,7 @@ function About() {
             </ol>
           </div>
           <div className="row align-middle">
-          <a href={process.env.PUBLIC_URL + "/Coding Resume Jacqueline Smith.pdf"} target="_blank">Click here to checkout Resume</a>
-          {/* <div className=MDBBtn gradient="purple">
-          
-          </MDBBtn> */}
+          <a className="gradient-button" href={process.env.PUBLIC_URL + "/Coding Resume Jacqueline Smith.pdf"} target="_blank" onMouseover={ () => {setMouseState(0)} } onMouseout={ () => {setMouseState(45)} } style={{background: "linear-gradient("+ mouseState+"deg,#ff6ec4,#7873f5)"}}>Click here to checkout Resume</a>
           </div>
         </div>
       </div>

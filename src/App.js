@@ -12,27 +12,29 @@ function App() {
   return (
 
     <Router>
+      <div className="everything-except-footer">
       <Headnav />
-        <Switch>
-          <Route exact path="/animation" component={Animation}>
-            <Animation />
-          </Route>
-         
-          <Route exact path="/about" component={About}>
-            <About />
-          </Route>
+      <Switch>
+        <Route exact path="/">
+          <Animation />
+        </Route>
 
-          <Route exact path="/portfolio" component={Portfolio}>
-            <Portfolio />
-          </Route>
+        <Route exact path="/about">
+          <About />
+        </Route>
 
-          <Route exact path="/contact" component={Contact}>
-            <Contact />
-          </Route>
+        <Route exact path="/portfolio">
+          <Portfolio />
+        </Route>
 
-          </Switch>
-        <Footer />
-     </Router>
+        <Route exact path="/contact">
+          <Contact />
+        </Route>
+
+      </Switch>
+      </div>
+      <Footer />
+    </Router>
 
   );
 }

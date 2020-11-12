@@ -1,22 +1,11 @@
 import React from "react";
-import ReactAnime from 'react-animejs'
-import "./animation.css";
-
-const {Anime, stagger} = ReactAnime
-
+import "./style.css";
 function Animation() {
-  
-    return (
-    <div id="animation">
-        <div className="center-content" id="animation-card">
-          <Anime className="animation-wrapper">
-            <div className="stagger-visualizer">
-              <div className="dots-wrapper"></div>
-            </div>
-          </Anime>
-        </div>
-      </div>
+  return (
+    <div className="home-card">
+  <div className="j-test">
+  </div>
+  </div>
   );
 }
-
 export default Animation;

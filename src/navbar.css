@@ -2,14 +2,16 @@ a {
     color: black;
     font-weight: bolder;
   }
-  a:hover {
+  a:hover(:not(.gradient-button)) {
     color: #fdd3ae;
   }
-  
-  .stupidnavbar {
-    padding-left: 0px;
-    padding-right: 0px;
-    width: 100%;
-    position: sticky;
+ 
+   .navbar {
     background-color: #32B3BB;
+    word-wrap: normal;
+    
+  }
+
+  #navbar {
+    width: 100%;
   }
