@@ -4,7 +4,9 @@ import Headnav from './header-navbar.js';
 import Footer from './footer.js';
 import Portfolio from './portfolio.js';
 import Contact from './contact.js';
+import Homepage from './homepage.js';
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import Homepage from './homepage.js';
 
 
 function App() {
@@ -14,6 +16,9 @@ function App() {
       <div className="everything-except-footer">
       <Headnav />
       <Switch>
+        <Route exact path ="/">
+          <Homepage />
+        </Route>
        <Route exact path="/about">
           <About />
         </Route>
