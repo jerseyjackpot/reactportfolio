@@ -4,7 +4,6 @@ import Headnav from './header-navbar.js';
 import Footer from './footer.js';
 import Portfolio from './portfolio.js';
 import Contact from './contact.js';
-import Animation from './animation.js';
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
 
 
@@ -15,11 +14,7 @@ function App() {
       <div className="everything-except-footer">
       <Headnav />
       <Switch>
-        <Route exact path="/">
-          <Animation />
-        </Route>
-
-        <Route exact path="/about">
+       <Route exact path="/about">
           <About />
         </Route>
 
