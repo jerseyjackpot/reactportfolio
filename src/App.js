@@ -6,7 +6,7 @@ import Portfolio from './portfolio.js';
 import Contact from './contact.js';
 import Homepage from './homepage.js';
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
-import Homepage from './homepage.js';
+
 
 
 function App() {
