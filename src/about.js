@@ -10,19 +10,18 @@ function About() {
    return (
     <div className="container">
       <div className="row justify-content-center" id="aboutme">
-        
           <img src={AboutMePic} className="img-fluid" alt="about me pic"/>
           
             <h2 className="social-media">5 things about Me</h2>
             <ol>
               <li>New Jersey born and raised, also lived in MD and CT</li>
               <li>
-                Graduate of Albertus Magnus College and New Jersey City
-                University.
+                Graduate of Rutgers University, New Jersey City
+                University, and Albertus Magnus College.
               </li>
               <li>
-                Holds an AA Degree in English and BA Degree in History (minored
-                in Pre-Law, concentrated in Political Science).
+                Holds a full stack Bootcamp Certificate, a BA Degree in History (minored
+                in Pre-Law, concentrated in Political Science), an AA Degree in English.
               </li>
               <li>
                 Enjoys photograhy and personally shot all of the images in the
