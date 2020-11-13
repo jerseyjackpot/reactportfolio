@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-import { MDBNavbarBrand, MDBNavItem } from 'mdbreact';
+import React from 'react';
 import "./navbar.css";
 import { Link } from "react-router-dom";
 import { NavbarBrand, Navbar, Row } from 'react-bootstrap'
