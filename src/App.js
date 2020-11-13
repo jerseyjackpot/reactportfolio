@@ -5,6 +5,7 @@ import Footer from './footer.js';
 import Portfolio from './portfolio.js';
 import Contact from './contact.js';
 import Homepage from './homepage.js';
+import './style.css';
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
 
 
