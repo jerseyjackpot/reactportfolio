@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./style.css";
 import AboutMePic from "./img/Aboutme.jpg";
+import Resume from "./Coding Resume Jacqueline Smith.pdf";
 
 
 
@@ -34,7 +35,7 @@ function About() {
             </ol>
           </div>
           <div className="row justify-content-center">
-          <a className="gradient-button" href={process.env.PUBLIC_URL + "/2020 Resume Jacqueline Smith.pdf"} target="_blank" onMouseover={ () => {setMouseState(0)} } onMouseout={ () => {setMouseState(45)} } style={{background: "linear-gradient("+ mouseState+"deg,#ff6ec4,#7873f5)"}}>Click here to checkout Resume</a>
+          <a href={Resume} target="_blank" className="gradient-button" onMouseOver={ () => {setMouseState(0)} } onMouseOut={ () => {setMouseState(45)} } style={{background: "linear-gradient("+ mouseState+"deg,#ff6ec4,#7873f5)"}}>Click here to checkout Resume</a>          
           </div>
         </div>
    
