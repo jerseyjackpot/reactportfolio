@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/reactportfolio/static/css/main.1cac541b.chunk.css",
-    "main.js": "/reactportfolio/static/js/main.1105aa5c.chunk.js",
-    "main.js.map": "/reactportfolio/static/js/main.1105aa5c.chunk.js.map",
+    "main.js": "/reactportfolio/static/js/main.c897f8d6.chunk.js",
+    "main.js.map": "/reactportfolio/static/js/main.c897f8d6.chunk.js.map",
     "runtime-main.js": "/reactportfolio/static/js/runtime-main.95b9a335.js",
     "runtime-main.js.map": "/reactportfolio/static/js/runtime-main.95b9a335.js.map",
     "static/js/2.821f4642.chunk.js": "/reactportfolio/static/js/2.821f4642.chunk.js",
@@ -13,7 +13,7 @@
     "static/media/ARTGAL.dd937b51.png": "/reactportfolio/static/media/ARTGAL.dd937b51.png",
     "static/media/Aboutme.c43ef2fd.jpg": "/reactportfolio/static/media/Aboutme.c43ef2fd.jpg",
     "static/media/AstQuiz.c4175c66.png": "/reactportfolio/static/media/AstQuiz.c4175c66.png",
-    "static/media/Coding Resume Jacqueline Smith.df3c81f0.pdf": "/reactportfolio/static/media/Coding Resume Jacqueline Smith.df3c81f0.pdf",
+    "static/media/Coding Resume Jacqueline Smith.1eac6858.pdf": "/reactportfolio/static/media/Coding Resume Jacqueline Smith.1eac6858.pdf",
     "static/media/DayPlanner.3cd126ac.png": "/reactportfolio/static/media/DayPlanner.3cd126ac.png",
     "static/media/EatBurg.10a63056.png": "/reactportfolio/static/media/EatBurg.10a63056.png",
     "static/media/LIFEV2.ef7b767b.png": "/reactportfolio/static/media/LIFEV2.ef7b767b.png",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.95b9a335.js",
     "static/js/2.821f4642.chunk.js",
     "static/css/main.1cac541b.chunk.css",
-    "static/js/main.1105aa5c.chunk.js"
+    "static/js/main.c897f8d6.chunk.js"
   ]
 }
